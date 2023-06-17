@@ -1,0 +1,16 @@
+[package]
+name = "aleph2py"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3 
+
+[dependencies]
+argparse = "0.2.2"
+aleph-syntax-tree = { git = "ssh://git@github.com/aleph-lang/aleph-syntax-tree.git" }
+aleparser = { git = "ssh://git@github.com/aleph-lang/aleparser.git" }
+pythongen = { git = "ssh://git@github.com/aleph-lang/pythongen.git" }
