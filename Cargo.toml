@@ -2,6 +2,9 @@
 name = "aleph2py"
 version = "0.1.0"
 edition = "2021"
+license-file="LICENSE"
+repository="https://github.com/aleph-lang/aleph2py"
+description="Transpiler Aleph to python."
 
 [profile.dev]
 opt-level = 3
@@ -11,7 +14,7 @@ opt-level = 3
 
 [dependencies]
 argparse = "0.2.2"
-aleph-syntax-tree = { git = "ssh://git@github.com/aleph-lang/aleph-syntax-tree.git" }
+aleph-syntax-tree = "0.1.0"
 aleparser = { git = "ssh://git@github.com/aleph-lang/aleparser.git"}
 pythongen = { git = "ssh://git@github.com/aleph-lang/pythongen.git" }
-constantfolding = { git = "ssh://git@github.com/aleph-lang/constant_folding.git" }
+constantfolding = { path = "../filter/transform/constant_folding" }
