@@ -15,6 +15,6 @@ opt-level = 3
 [dependencies]
 argparse = "0.2.2"
 aleph-syntax-tree = "0.1.0"
-aleparser = { git = "ssh://git@github.com/aleph-lang/aleparser.git"}
-pythongen = { git = "ssh://git@github.com/aleph-lang/pythongen.git" }
-constantfolding = { path = "../filter/transform/constant_folding" }
+aleparser = "0.1.1"
+pythongen = "0.1.0"
+constantfolding = "0.1.0"
