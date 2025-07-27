@@ -1,6 +1,6 @@
 [package]
 name = "aleph2py"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license-file="LICENSE"
 repository="https://github.com/aleph-lang/aleph2py"
@@ -14,7 +14,7 @@ opt-level = 3
 
 [dependencies]
 argparse = "0.2.2"
-aleph-syntax-tree = "0.1.0"
+aleph-syntax-tree = "0.1.1"
 aleparser = "0.1.1"
-pythongen = "0.1.0"
+pythongen = "0.1.1"
 constantfolding = "0.1.0"
