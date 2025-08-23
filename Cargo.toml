@@ -16,5 +16,5 @@ opt-level = 3
 argparse = "0.2.2"
 aleph-syntax-tree = "0.1.1"
 aleparser = "0.1.1"
-pythongen = "0.1.1"
+pythongen = "0.1.5"
 constantfolding = "0.1.0"
